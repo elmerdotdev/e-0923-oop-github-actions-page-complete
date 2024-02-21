@@ -36,7 +36,7 @@ jobs:
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add dist/css/style.min.css dist/js/app.min.js
+        git add dist/css/style.min.css dist/js/script.min.js
         git commit -m "Minify CSS and JS" || echo "No changes to commit"
         git push
 
